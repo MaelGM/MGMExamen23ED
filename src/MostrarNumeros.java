@@ -14,9 +14,8 @@ public class MostrarNumeros {
         System.out.println("Número 2: " + numero2);
 
         sc.close();
-    }
 
-<<<<<<<<< Temporary merge branch 1
+
     public static double sumar(double a, double b) {
         return a + b;
     }
@@ -29,8 +28,6 @@ public class MostrarNumeros {
         return Math.pow(base, exponente);
     }
 
-
-=========
     public static double restar(double a, double b) {
         return a - b;
     }
@@ -50,5 +47,4 @@ public class MostrarNumeros {
             throw new IllegalArgumentException("No se puede calcular la raíz cuadrada de un número negativo");
         }
     }
->>>>>>>>> Temporary merge branch 2
 }
